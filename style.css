@@ -657,9 +657,6 @@ a {
         padding: 6px 12px;
     }
 
-    .project-card{
-        width: 70%;
-    }
 
     .project-card img {
         max-height: 140px;
@@ -701,7 +698,7 @@ a {
     }
 
     .project-card {
-    width: 350px; /* Adjust as needed */
+    width: 300px; /* Adjust as needed */
 }
 
     .project-card h3 {
