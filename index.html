@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Varun Portfolio</title>
+</head>
+
+<body>
+
+  <div class="progress-bar"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Varun</div>
+
+    <nav>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="typing"></p>
+    <div class="hero-left">
+      <h1>👋 Hi, I'm Varun.</h1>
+      <h2>Web Developer, Building Products Leveraging AI</h2>
+      <p>I I build modern, responsive, and user-friendly web experiences.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="blob"></div>
+      <img src="images/varunghibli.png" width="300px" alt="Varun">
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-container fade">
+      <div class="about-left">
+        <img src="images/varunsr.jpeg" alt="Varun">
+      </div>
+      <div class="about-right">
+        <h2>About Me</h2>
+        <p>
+          Hi There👋, I'm Varun, a Web developer who loves creating clean and modern websites.
+          And I am focusing on building responsive, user-friendly interfaces with great design.
+          Always learning new technologies and improving my skills to be a full stack developer.
+        </p>
+        <div class="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>GitHub</span>
+          <span>Codex</span>
+          <span>Claude</span>
+          <span>Vercel</span>
+          <span>Figma</span>
+          <span>Relume</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card glass fade">
+        <img src="images/drag and drop website builder ui.png" alt="Drag and Drop Website Builder">
+        <h3>Drag and Drop Website Builder</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <p>Designed and built a real-time drag-and-drop interface allowing users to place and arrange text, image, and
+          component blocks without writing code.</p>
+        <div class="project-buttons">
+          <a href="https://drag-drop-website-builder-ui.vercel.app/" class="btn" target="_blank">Live</a>
+          <a href="https://github.com/varunvarunsr05-cp/Drag-Drop-Website-Builder-UI" class="btn outline"
+            target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card glass fade">
+        <img src="images/ai job cracker.png" alt="AI Job Cracker">
+        <h3>AI Job Cracker</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <p>Built fully responsive layouts optimized for both desktop study sessions and mobile quick-review, ensuring
+          accessibility across use cases.
+        </p>
+        <div class="project-buttons">
+          <a href="https://ai-job-cracker-ui.vercel.app/" class="btn" target="_blank">Live</a>
+          <a href="https://github.com/varunvarunsr05-cp/AI-job-cracker-UI" class="btn outline"
+            target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card glass fade">
+        <img src="images/ai github analyser.png" alt="AI GitHub Analyser">
+        <h3>AI GitHub Analyser</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <p>Built a responsive dashboard UI to visualize GitHub profile data — repositories, activity, and skills — with
+          a structured information hierarchy for fast scanning.
+        </p>
+        <div class="project-buttons">
+          <a href="https://ai-git-hub-portfolio-analyzer.vercel.app/" class="btn" target="_blank">Live</a>
+          <a href="https://github.com/varunvarunsr05-cp/AI-GitHub-Portfolio-Analyze" class="btn outline"
+            target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card glass fade">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        <p>HTML</p>
+      </div>
+
+      <div class="skill-card glass fade">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        <p>CSS</p>
+      </div>
+
+      <div class="skill-card glass fade">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+        <p>JavaScript</p>
+      </div>
+
+      <div class="skill-card glass fade">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <p>Git</p>
+      </div>
+
+      <div class="skill-card glass fade">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+        <p>GitHub</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container fade">
+
+      <div class="contact-info glass">
+        <p><img src="images/e-mail.jpg" alt=""> <strong>Email:</strong><a
+            href="mailto:varunsr05@gmail.com">varunsr05@gmail.com</a></p>
+        <p><img src="images/linkedin.jpg" alt=""> <strong>LinkedIn:</strong> <a
+            href="https://www.linkedin.com/in/varun-s-r-442347327/" target="_blank">Visit LinkedIn</a></p>
+        <p><img src="images/github.png" alt=""> <strong>GitHub:</strong> <a href="https://github.com/varunvarunsr05-cp"
+            target="_blank">Visit GitHub</a>
+        </p>
+        <p><img src="images/resume.png" alt=""> <strong>Resume:</strong> <a href="Varun's  Resume.pdf"
+            target="_blank">View Resume</a></p>
+      </div>
+
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" name="user_name" required>
+        <input type="email" placeholder="Your Email" name="user_email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    // Hamburger Menu
+    function toggleMenu() {
+      const navLinks = document.getElementById('nav-links');
+      const hamburger = document.getElementById('hamburger');
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    }
+
+    function closeMenu() {
+      document.getElementById('nav-links').classList.remove('active');
+      document.getElementById('hamburger').classList.remove('active');
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function (e) {
+      const nav = document.getElementById('nav-links');
+      const hamburger = document.getElementById('hamburger');
+      if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+        nav.classList.remove('active');
+        hamburger.classList.remove('active');
+      }
+    });
+  </script>
+
+</body>
+
+</html>
