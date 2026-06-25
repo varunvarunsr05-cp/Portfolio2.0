@@ -358,7 +358,7 @@ a {
 .project-card {
     transition: 0.4s;
     overflow: hidden;
-    
+
 }
 
 .project-card img {
@@ -698,8 +698,9 @@ a {
     }
 
     .project-card {
-    width: 300px; /* Adjust as needed */
-}
+        width: 260px;
+        /* Adjust as needed */
+    }
 
     .project-card h3 {
         font-size: 1rem;
