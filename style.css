@@ -316,8 +316,9 @@ a {
 
 .skills {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 .skills span {
@@ -689,9 +690,14 @@ a {
     }
 
     .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 14px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 30px;
     }
+
+    .project-card {
+    width: 350px; /* Adjust as needed */
+}
 
     .project-card h3 {
         font-size: 1rem;
